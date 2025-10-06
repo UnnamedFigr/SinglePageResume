@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    width: 90%;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px 0;
+}
+header {
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+h1, h2 {
+    color: #1e6ab6;
+}
+#full-name {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+#contact-details {
+    margin: 10px 0;
+}
+.contact-item {
+    font-size: 1rem;
+}
+.contact-item .link {
+    color: #2980b9;
+    text-decoration: none;
+}
+.contact-item .link:hover {
+    text-decoration: underline;
+}
+.section-style, .about-me {
+    margin: 20px 0;
+}
+.section-header {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.sub-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #34495e;
+    margin-bottom: 5px;
+}
+.section-text {
+    font-size: 1rem;
+    color: #7f8c8d;
+    margin-bottom: 5px;
+}
+.project-list {
+    list-style-type: "· ";
+    padding-left: 20px;
+}
+.project-list li {
+    margin-bottom: 5px;
+}
