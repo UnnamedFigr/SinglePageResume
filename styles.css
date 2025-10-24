@@ -1,3 +1,6 @@
+:root {
+    --primary-color: #1e6ab6;
+}
 * {
     margin: 0;
     padding: 0;
@@ -19,7 +22,7 @@ header {
     border-bottom: 1px solid #ccc;
 }
 h1, h2 {
-    color: #1e6ab6;
+    color: var(--primary-color);
 }
 #full-name {
     font-size: 2.5rem;
@@ -36,7 +39,7 @@ h1, h2 {
     text-decoration: none;
 }
 .contact-item .link:hover {
-    text-decoration: underline;
+    font-weight: bold;
 }
 .section-style, .about-me {
     margin: 20px 0;
@@ -54,6 +57,11 @@ h1, h2 {
     color: #34495e;
     margin-bottom: 5px;
 }
+#project-section .sub-title:hover{
+    font-size:1.25rem;
+    color:#2980b9;
+    cursor: pointer;
+}
 .section-text {
     font-size: 1rem;
     color: #7f8c8d;
@@ -65,4 +73,21 @@ h1, h2 {
 }
 .project-list li {
     margin-bottom: 5px;
+}
+.project-list button{
+    display: block;
+    width: 150px;
+    height:30px;
+    border: 1px solid black;
+    color: white;
+    padding:5px 0px;
+    border-radius: 6px;
+    background-color: var(--primary-color);
+    margin: 15px auto;
+    font-size: 1.05rem;
+}
+.project-list button:hover{
+    background-color: #1e5ab3;
+    font-weight: bold;
+    cursor: pointer;
 }
