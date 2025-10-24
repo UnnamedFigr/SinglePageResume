@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <img src="img/508A9605.JPG" alt="avatar-photo"/>
+        <img src="img/img.png" alt="avatar-photo"/>
         <h1 id="full-name">Ivan Drazhev</h1>
         <div id="contact-details">
             <p class="contact-item">Bulgaria | +359 87 738 4569 | ivan.drazhev@outlook.com | <a href="https://www.linkedin.com/in/ivandrazhev/" target="_blank" class="link">linkedin.com/in/ivandrazhev/</a></p>
@@ -40,7 +40,8 @@
                     <li class="section-text">Independently developed Windows Forms Application to display advanced skills in Object-Oriented Programming, data structures, and clean coding.</li>
                     <li class="section-text">Features include creating, editing, deleting, and sorting objects, with Undo/Redo functionality using stack data structures, serialization, and scene export/import to image format.</li>
                     <li class="section-text">Scored higher than 86% of the class for technical execution and code quality.</li>
-                    <button>Link</button>
+                    <!--  value of the attribute has to be like the name of the key in the links list in scripts.js -->
+                    <button class="project-link-button" data-project="first-year">Link</button>
                 </ul>
             </div>
             <div class="sub-section">
@@ -48,7 +49,14 @@
                 <ul class="project-list" id="crawler-details">
                     <li class="section-text">A console application, demonstrating my understanding of data structures and algorithms.</li>
                     <li class="section-text">This application searches and indexes HTML content, using custom generic functions built with intention to learn DSA principles in-depth.</li>
-                    <button>Link</button>
+                     <!-- value of the attribute has to be like the name of the key in the links list in scripts.js -->
+                    <button class="project-link-button" data-project="second-year">Link</button>
+                </ul>
+            </div>
+            <div class="sub-section">
+                <h3 class="sub-title" data-toggle="personal-web-details">Personal CV website</h3>
+                <ul class="project-list" id="personal-web-details">
+                    <li class="section-text">Personal CV website created with the purpose of demonstrating basic front-end knowledge</li>
                 </ul>
             </div>
         </section>

@@ -22,9 +22,11 @@ header {
     border-bottom: 1px solid #ccc;
 }
 header img {
+    
+    width: 225px;
+    height: auto;
+    border: 1px solid black;
     border-radius: 50%;
-    width: 200px;
-    height: 270px;
 }
 h1, h2 {
     color: var(--primary-color);
